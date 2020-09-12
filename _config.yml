@@ -14,7 +14,7 @@ disqus_shortname  : ""
 postshare_enabled : false
 
 # Build settings
-permalink   : /blobby/:num/ #make it blobby 
+permalink   : /blobby/:title/ #make it blobby 
 markdown    : kramdown
 highlighter : rouge
 
