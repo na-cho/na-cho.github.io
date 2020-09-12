@@ -30,6 +30,10 @@ sass:
 author:
   name     : "Nathan Cho"
 
+#Test pagination for blobby
+paginate: 1
+paginate_path: "/blobby/:num/"
+
 plugins:
   - jekyll-sitemap
   - bourbon
