@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Blobby and his Pickled Shrooms"
 num: "1"
 ---
