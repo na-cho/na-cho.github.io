@@ -1,5 +1,6 @@
 ---
 layout: page
+title: "Blobby and his Pickled Shrooms"
 num: "1"
 description: "First comic, created for health class."
 keywords: "First comic"
