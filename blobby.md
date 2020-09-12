@@ -7,7 +7,7 @@ permalink: /blobby/
 
 <script type = "text/javascript">
   function displayCurrent() {
-    x = (x === images.length - 1) ? 0 : x;
+    x = images.length-1;
     document.getElementById("img").src = images[x];
   }
   
