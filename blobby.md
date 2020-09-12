@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blobby 
-permalink: /Blobby/
+permalink: /blobby/
 ---
 
 
