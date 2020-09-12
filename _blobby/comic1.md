@@ -1,0 +1,8 @@
+---
+layout: post
+title: "1"
+description: "First comic, created for health class."
+keywords: "First comic"
+---
+
+<img id="img" src=""https://preview.redd.it/4o0u2cji64d51.png?width=960&format=png&auto=webp&s=ae1c7957fd8de4a8e316abbdde6c75d8b7e9435a""/>
