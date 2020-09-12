@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "1"
+num: "1"
 description: "First comic, created for health class."
 keywords: "First comic"
 ---
