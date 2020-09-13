@@ -6,7 +6,7 @@
       <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About me</a></li>
       <li><a href="{{ '/projects' | prepend: site.baseurl | prepend: site.url }}">Projects</a></li>
       <li><a href="{{ '/handouts' | prepend: site.baseurl | prepend: site.url }}">Handouts</a></li>
-      <li><a href="{{ '/blobby' | prepend: site.baseurl | prepend: site.url }}">Blobby</a></li>
+      <li><a href="{{ '/blobby/' | prepend: site.baseurl | prepend: site.url }} {{ paginator.total_pages }} ">Blobby</a></li>
       <li><a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" target="_blank">RSS</a></li>
     </ul>
   </div>
