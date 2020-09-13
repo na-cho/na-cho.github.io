@@ -2,7 +2,9 @@
 layout: default
 title: Blobby
 ---
+
 <section class="post-list">
+  <center>
   <div class="container">
     {% for post in site.posts %}
       {% unless post.next %}
@@ -63,4 +65,5 @@ title: Blobby
   {% endif %}
 </div>
 {% endif %}
+  </center>
 </section>
