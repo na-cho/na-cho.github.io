@@ -6,7 +6,7 @@ title: Blobby
 <section class="post-list">
   <center>
 
-  {% for post in paginator.posts %}
+  {% for post in paginator.posts reversed%}
 <div class="article">
     <div class="well">
         {% if site.comments and post.comments %}
