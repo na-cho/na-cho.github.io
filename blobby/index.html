@@ -2,7 +2,42 @@
 layout: default
 title: Blobby
 ---
+<section class="post-list">
+  <div class="container">
+    {% for post in site.posts %}
+      {% unless post.next %}
+        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+      {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
+        {% endif %}
+      {% endunless %}
+      <article class="post-item">
+        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
+        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
+      </article>
+    {% endfor %}
+  </div>
 
+  {% for post in paginator.posts %}
+<div class="article">
+    <div class="well">
+        <h1><a href="{{ site.baseurl}}{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }} - {{ post.title }}</a></h1>
+        {% if site.comments and post.comments %}
+            {% if site.disqus != '' %}
+            <p class="author"><a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url | slugify }}">Comments</a></p>
+            {% elsif site.isso != '' %}
+            <p class="author"><a href="{{ site.baseurl }}{{ post.url }}{{ site.isso_suffix }}#isso-thread">Comments</a></p>
+            {% endif %}
+        {% endif %}
+        <div class="content">
+            {{ post.excerpt }}
+        </div>
+    </div>
+</div>
+{% endfor %}
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -28,3 +63,4 @@ title: Blobby
   {% endif %}
 </div>
 {% endif %}
+</section>
