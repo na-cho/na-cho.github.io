@@ -24,6 +24,7 @@ title: Blobby
     </div>
 </div>
 {% endfor %}
+  <center>
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
@@ -31,6 +32,7 @@ title: Blobby
   {% else %}
     <span>&laquo; Prev</span>
   {% endif %}
+  
 
   <!-- {% for page in (1..paginator.total_pages) %}
     {% if page == paginator.page %}
@@ -49,4 +51,5 @@ title: Blobby
   {% endif %}
 </div>
 {% endif %}
+    </center>
 </section>
