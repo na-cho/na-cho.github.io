@@ -4,7 +4,7 @@ title: Blobby
 ---
 
 <section class="post-list">
-  <center>
+  
 
   {% for post in paginator.posts reversed%}
 <div class="article">
@@ -16,9 +16,11 @@ title: Blobby
             <p class="author"><a href="{{ site.baseurl }}{{ post.url }}{{ site.isso_suffix }}#isso-thread">Comments</a></p>
             {% endif %}
         {% endif %}
+      <center>
         <div class="content">
             {{ post.excerpt }}
         </div>
+       </center>
     </div>
 </div>
 {% endfor %}
@@ -47,5 +49,4 @@ title: Blobby
   {% endif %}
 </div>
 {% endif %}
-  </center>
 </section>
