@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: na-cho.github.io
+Token: 187f8cd2cc854cabbe6024dcd915ba3484e7169828bd3cd138307cbb199de6f3
