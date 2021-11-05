@@ -12,3 +12,6 @@ This handout was created to address the need of a free and useful resource for l
 ### [Angle Trisection](https://na-cho.github.io/files/trisection.pdf)
 These are my notes for a lecture I presented for the last Montgomery Blair Math Team meeting. It's not meant to be instructive, but more just some really cool geometry presented by a really enthusiastic person. I found this topic to be fascinating, and I hope you do too.
 
+
+### [Game Theory: Nim](https://na-cho.github.io/files/nim.pdf)
+Another MBHS Math Team lecture. I got super lazy, so a lot of details are missing and there aren't many problems. Definitely inspired from my time at Canada/USA Mathcamp. TL;DR everything is Nim. 
