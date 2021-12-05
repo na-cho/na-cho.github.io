@@ -45,6 +45,11 @@ navbar:
   - slug : blog
     title: Blog
 
+collections:
+  bposts:
+    output: true
+    permalink: /blog/:name
+
 exclude:
   - "gulp"
   - "node_modules"
