@@ -17,8 +17,11 @@ Example: A dadjoke on the string "I might cry" would be "hi ight cry". Spaces ar
 Now, suppose two people, named A and B, are conversing in an isolated universe. Person B tells person A a string, and then they take turns dadjoking the string, starting with player A, until a player cannot dadjoke anymore, in which case the last person to make a dadjoke wins the battle of wits. 
 
 Example: With an initial string of "I'm imitating you"
+
 Player A: "Hi imitating you"
+
 Player B: "Hi itating you"
+
 Player A: "Darn." (Player B wins and Player A is sad)
 
 Note that this game is guaranteed to be impartial:
