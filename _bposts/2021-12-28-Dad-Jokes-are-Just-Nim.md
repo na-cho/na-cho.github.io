@@ -40,7 +40,7 @@ Let a string in the form “imm..mm” be a \\(n\\)-block, where \\(n\\) is the 
 **Claim:** A conversation is a \\(P\\) game (first person who dadjokes loses) iff there are no odd blocks in the string. 
 
 **Proof:**
-If all blocks are even, then the strategy stealing argument works: dadjoking on a certain $n$-block where $n$ is even gives the next player a $n-1$ block and a bunch of even blocks, where then they can make it a $n-2$ block and even blocks, and now all blocks are even once more. This guarantees that the second player always has a valid move, no matter what the first player dadjokes. 
+If all blocks are even, then the "strategy stealing" argument works: dadjoking on a certain \\(n\\)-block where \\(n\\) is even gives the next player a \\(n-1\\) block and a bunch of even blocks, where then they can make it a \\(n-2\\) block and even blocks, and now all blocks are even once more. This guarantees that the second player always has a valid move, no matter what the first player dadjokes. 
 
 If there exists an odd block, then take the last odd block, and dadjoke it: now it’s an even block, followed by only even blocks, which by earlier means that the second player cannot win. 
 
