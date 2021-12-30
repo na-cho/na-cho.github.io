@@ -15,3 +15,9 @@ I am a:
  - comic artist.
 
 If you know where to find me, I'm always willing to talk about any of the above!
+
+## FAQ
+
+### Nacho, why does your website suck?
+
+I don't do webdev, nor do I claim any ability in HTML, JS, or CSS. And to be quite frank, I don't think it's worth learning. I literally update this website by using the GitHub editor. 
