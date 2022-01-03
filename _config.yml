@@ -36,6 +36,7 @@ paginate_path: "/blobby/:num/"
 plugins:
   - jekyll-sitemap
   - bourbon
+  - jekyll-seo-tag
   - jekyll-paginate
 
 # navbar pages
