@@ -3,6 +3,7 @@ layout: post
 title: "Dad Jokes are Just Nim"
 description: "This shouldn't exist."
 comments: false
+date: 2021-12-28
 keywords: "Nim, Game Theory"
 ---
 
