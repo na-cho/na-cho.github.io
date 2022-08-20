@@ -3,6 +3,7 @@ layout: post
 title: "The Self Defined User Experience"
 description: "Imagine a world where your computer obeys your wishes, as opposed to it telling you how to use it."
 comments: false
+date: 2022-1-16
 keywords: "vim, linux, dvorak"
 ---
 
