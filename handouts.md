@@ -15,3 +15,9 @@ These are my notes for a lecture I presented for the last Montgomery Blair Math 
 
 ### [Game Theory: Nim](/files/nim.pdf)
 Another MBHS Math Team lecture. I got super lazy, so a lot of details are missing and there aren't many problems. Definitely inspired from my time at Canada/USA Mathcamp. TL;DR everything is Nim. 
+
+### Isogonal Conjugation and Circumconics
+Also known as *Triangles, Hyperbolas, Isogonal Conjugates and Certain Circles,* these class notes and problem sets were for a Week 5 class at [Canada/USA Mathcamp](https://mathcamp.org/) 2023, which I co-taught with [Anthony Wang](https://cosmicgenius.github.io/). 
+
+Day 1 [notes](/files/THICCC/hyperbola_day_1.pdf) and [problem set](/files/THICCC/hw_day_1.pdf)
+Day 2 [notes](/files/THICCC/hyperbola_day_2.pdf) and [problem set](/files/THICCC/hw_day_2.pdf)
